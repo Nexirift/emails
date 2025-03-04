@@ -15,7 +15,7 @@ This repository stores the email templates that we use in various projects, such
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/Nexirift/cosmos.git`
+1. Clone the repository: `git clone https://github.com/Nexirift/emails.git`
 2. Install dependencies with `bun install`
 3. Start the server with `bun dev`
 
