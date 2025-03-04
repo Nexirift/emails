@@ -1,48 +1,24 @@
-<div align="center">
-  <p>
-    <a href="https://maizzle.com" target="_blank">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/maizzle/maizzle/raw/master/.github/logo-dark.svg">
-        <img alt="Maizzle Starter" src="https://github.com/maizzle/maizzle/raw/master/.github/logo-light.svg" width="300" height="225" style="max-width: 100%;">
-      </picture>
-    </a>
-  </p>
-  <p>Quickly build HTML emails with Tailwind CSS</p>
-<div>
+<p align="center">
+<img src="https://raw.githubusercontent.com/Nexirift/media-kit/main/nexirift/banner.png" width="600" alt="Nexirift Logo" />
+</p>
 
-  [![Version][npm-version-shield]][npm]
-  [![Build][github-ci-shield]][github-ci]
-  [![Downloads][npm-stats-shield]][npm-stats]
-  [![License][license-shield]][license]
+# Emails
 
-  </div>
-</div>
+This repository stores the email templates that we use in various projects, such as [Cosmos](https://github.com/Nexirift/cosmos).
 
-## Getting Started
+## Getting Started (Development)
 
-Run this command and follow the prompts:
+### Prerequisites
 
-```bash
-npx create-maizzle
-```
+- Node.js v22.13.0 or greater
+- Bun v1.2.2 or greater
 
-## Documentation
+### Installation
 
-Maizzle documentation is available at https://maizzle.com
-
-## Issues
-
-Please open all issues in the [framework repository](https://github.com/maizzle/framework).
+1. Clone the repository: `git clone https://github.com/Nexirift/cosmos.git`
+2. Install dependencies with `bun install`
+3. Start the server with `bun dev`
 
 ## License
 
-The Maizzle framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-[npm]: https://www.npmjs.com/package/@maizzle/framework
-[npm-stats]: https://npm-stat.com/charts.html?package=%40maizzle%2Fframework&from=2019-03-27
-[npm-version-shield]: https://img.shields.io/npm/v/@maizzle/framework.svg
-[npm-stats-shield]: https://img.shields.io/npm/dt/@maizzle/framework.svg?color=6875f5
-[github-ci]: https://github.com/maizzle/framework/actions
-[github-ci-shield]: https://github.com/maizzle/framework/actions/workflows/nodejs.yml/badge.svg
-[license]: ./LICENSE
-[license-shield]: https://img.shields.io/npm/l/@maizzle/framework.svg?color=0e9f6e
+Nexirift's internal projects are licensed under the [GNU General Public License v3.0](LICENSE).
