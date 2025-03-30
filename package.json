@@ -13,7 +13,6 @@
   },
   "devDependencies": {
     "@maizzle/framework": "latest",
-    "@nexirift/emails": "^0.0.1",
     "tailwindcss-preset-email": "latest"
   },
   "publishConfig": {

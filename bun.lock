@@ -5,7 +5,6 @@
       "name": "@nexirift/emails",
       "devDependencies": {
         "@maizzle/framework": "latest",
-        "@nexirift/emails": "^0.0.1",
         "tailwindcss-preset-email": "latest",
       },
     },
@@ -34,8 +33,6 @@
     "@maizzle/cli": ["@maizzle/cli@2.0.0", "", { "dependencies": { "@clack/prompts": "^0.7.0", "commander": "^12.1.0", "create-maizzle": "^0.3.0", "import-from-esm": "^1.3.4", "ora": "^8.0.1", "pathe": "^1.1.2", "picocolors": "^1.0.1" }, "bin": { "maizzle": "bin/maizzle.mjs" } }, "sha512-ZTvEM58L5ndRtnxtBykMAFUjsFYZU2gpYEC9eSs2mqIAJ3ogT10p7ehq+YacwAXOHpCm5uk04pJRNvg6TcA40w=="],
 
     "@maizzle/framework": ["@maizzle/framework@5.0.6", "", { "dependencies": { "@maizzle/cli": "^2.0.0", "cheerio": "^1.0.0", "chokidar": "^3.6.0", "cli-table3": "^0.6.5", "color-shorthand-hex-to-six-digit": "^5.0.16", "defu": "^6.1.4", "email-comb": "^7.0.21", "express": "^4.21.0", "fast-glob": "^3.3.2", "gray-matter": "^4.0.3", "html-crush": "^6.0.19", "is-url-superb": "^6.1.0", "istextorbinary": "^9.5.0", "juice": "^11.0.0", "lodash-es": "^4.17.21", "morphdom": "^2.7.4", "ora": "^8.1.0", "pathe": "^2.0.0", "postcss": "^8.4.49", "postcss-calc": "^10.0.2", "postcss-css-variables": "^0.19.0", "postcss-import": "^16.1.0", "postcss-safe-parser": "^7.0.0", "posthtml": "^0.16.6", "posthtml-attrs-parser": "^1.1.1", "posthtml-base-url": "^3.1.4", "posthtml-component": "^2.1.0", "posthtml-content": "^2.1.0", "posthtml-expressions": "^1.11.4", "posthtml-extra-attributes": "^3.1.0", "posthtml-fetch": "^4.0.0", "posthtml-markdownit": "^3.1.0", "posthtml-mso": "^3.1.0", "posthtml-parser": "^0.12.1", "posthtml-postcss": "^1.0.2", "posthtml-postcss-merge-longhand": "^3.1.2", "posthtml-render": "^3.0.0", "posthtml-safe-class-names": "^4.1.0", "posthtml-url-parameters": "^3.1.0", "posthtml-widows": "^1.0.0", "pretty": "^2.0.0", "string-strip-html": "^13.4.8", "tailwindcss": "^3.4.16", "ws": "^8.18.0" }, "bin": { "maizzle": "bin/maizzle" } }, "sha512-gjXBq6QBcTEnLmRQ59icL6rIvw/affcmErPNi9hCswlYByrZwhaIz1DDZdYzed44/xwdpngtMC5Z246HFpQW4A=="],
-
-    "@nexirift/emails": ["@nexirift/emails@0.0.1", "https://code.nexirift.com/dev/~npm/@nexirift%2Femails/-/0.0.1/@nexirift%2Femails-0.0.1.tgz", { "dependencies": { "@maizzle/framework": "latest", "tailwindcss-preset-email": "latest" } }, "sha512-6tPF9jwpGjukgi9ljhKvasEkewaWX/YGio2IHM7jaUVGbMuO0E2eWMEz9Ma3f6vQMomoSHQ4E5JQwva914T1Vw=="],
 
     "@nodelib/fs.scandir": ["@nodelib/fs.scandir@2.1.5", "", { "dependencies": { "@nodelib/fs.stat": "2.0.5", "run-parallel": "^1.1.9" } }, "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="],
 
