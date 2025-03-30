@@ -1,12 +1,27 @@
 {
-  "private": true,
+  "name": "@nexirift/emails",
+  "version": "0.0.1",
+  "description": "This repository stores the email templates that we use in various projects, such as Cosmos.",
+  "author": "Nexirift",
+  "license": "AGPL-3.0-only",
   "type": "module",
   "scripts": {
     "dev": "maizzle serve",
-    "build": "maizzle build production"
+    "build": "maizzle build production",
+    "prepack": "maizzle build production",
+    "switch-registry": "chmod +x ./utility-scripts/switch-registry.sh && ./utility-scripts/switch-registry.sh"
   },
-  "dependencies": {
+  "devDependencies": {
     "@maizzle/framework": "latest",
+    "@nexirift/emails": "^0.0.1",
     "tailwindcss-preset-email": "latest"
-  }
+  },
+  "publishConfig": {
+    "directory": "dist",
+    "access": "public"
+  },
+  "files": [
+    "dist/**",
+    "dev/**"
+  ]
 }
